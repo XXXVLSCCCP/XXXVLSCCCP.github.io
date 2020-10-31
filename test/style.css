@@ -1,0 +1,24 @@
+.box,.page {
+position:fixed;
+top:0;
+left:0;
+display: block;
+width: 100%;
+height: 100%;
+overflow: hidden;
+z-index:999;
+background:rgba(15, 102, 99, 0.5);
+color:white;
+}
+.is_overlay{
+display: block;
+width: 100%;
+height: 110%;
+}
+.is_overlay video {
+position: fixed; right: 0; bottom: 0;
+min-width: 100%; min-height: 100%;
+width: auto; height: auto; z-index: -100;
+background: url(/videos/bck.jpg) no-repeat;
+background-size: cover;
+}
