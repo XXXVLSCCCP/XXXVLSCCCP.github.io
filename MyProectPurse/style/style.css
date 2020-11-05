@@ -1,0 +1,132 @@
+@font-face{
+  font-family: "RobotoSlabVariableFontwght";
+  src: url("font/RobotoSlabVariableFontwght.ttf");
+  font-style: normal;
+  font-weight: normal;
+
+}
+
+.header {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:45%;
+}
+ 
+.header__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+.name_title {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.name_title h1  {
+  font-family: "RobotoSlabVariableFontwght";
+    text-align:center;
+    color:#fff;
+    font-size:25px;
+    margin-top:27%;
+    opacity: 30%;
+
+}
+.block-gerb{
+  background-image: url(/img/gerb2.jpg);
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 0 0 0;
+  
+}
+.parallax-div{
+  overflow: hidden;
+  position:  relative;
+  width: 100%;
+  height: 100%;
+  
+}
+.parallax{
+  background-image: url(/img/img1.jpg);
+  width: 100%;
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+}
+.parallax-opacity{
+  background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 400px;
+    z-index: 4;
+
+}
+main{
+  width: 100%;
+  height: 100%;
+}
+.block-slider{
+  padding: 60px;
+  /* background: linear-gradient(to bottom, #8c724a, #dbd29d, #8c724a) ; */
+  background-color: #fdfff8;
+}
+.footer{
+   background-color: #1c201d; 
+  /* background-color: #3f3a33; */
+  height: 400px;
+}
+
+nav{
+  
+  margin: 0 0 0 40% ;
+  
+}
+  
+nav a{
+  font-family: "RobotoSlabVariableFontwght";
+  text-decoration: none;
+  width: 20%;
+  position: absolute;
+  z-index: 5;
+  color: #fdfff8;
+  font-size: 15px;
+  font-family: 'Roboto Condensed',Arial,sans-serif;
+  line-height: 1.55;
+  font-weight: 600;
+  border-width: 1px;
+  border-radius: 30px;
+  border-color: #fdfff8;
+  border-style: solid;
+  bottom: 50px;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 0 10px 0;
+}
+nav a:hover{
+  background-color: #864b30;
+}
+.top-gerb{
+  height: 20px;
+  /* background-color: #8c724a ; */
+  background-color: #fdfff8;
+}
+
+.block-bottom{
+  height: 300px;
+}
