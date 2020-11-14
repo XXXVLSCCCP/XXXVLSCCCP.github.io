@@ -1,0 +1,33 @@
+.conteiner{
+    width:70px;
+    height: 100%;
+    background-color: #cccc;
+    
+}
+.add-menu{
+    width: 30px;
+    height: 30px;
+    background-image: url("img/button_add.jpg");
+    background-repeat: round;
+    cursor: pointer;
+    
+    
+}
+.add-menu.valide{
+    background-image: url("img/buttonX.jpg");
+}
+.menu-li{
+    display: none;
+    list-style-type: none;
+    padding: 0 0 0 5px;
+    margin: 5px 0 5px 0;
+}
+.menu-li a{
+    text-decoration: none;
+}
+.menu-li a:hover{
+    color: indianred;
+}
+.menu-li.valide{
+    display: block;
+}
